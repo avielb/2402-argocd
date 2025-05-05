@@ -13,5 +13,4 @@ spec:
         app: nginx-site
     spec:
       containers:
-        - name: nginx
-          image: avielb/myimage-2402:v0.2
+        - name: nginx:alpine
